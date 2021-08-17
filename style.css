@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #151515;
+    color: #fff;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+h1:after {
+    content: '';
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    height: 4px;
+    width: 80px;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid;
+    margin-top: 8px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0, 1);
+    transform: scale(0, 1);
+}
+
+h1:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
