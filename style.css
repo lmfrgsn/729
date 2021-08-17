@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +7,7 @@
 body {
     background-color: #151515;
     color: #fff;
-    font-family: 'Source Serif Pro', serif;
+    font-family: 'Pathway Gothic One', sans-serif;
 }
 
 .main {
@@ -19,7 +19,7 @@ body {
 
 h1 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 32px;
     letter-spacing: 2px;
 }
 
@@ -29,7 +29,7 @@ h1:after {
     margin: 0 auto;
     display: block;
     height: 4px;
-    width: 80px;
+    width: 60px;
     right: 0;
     left: 0;
     border-bottom: 1px solid hsl(55deg 100% 50% / 50%);
